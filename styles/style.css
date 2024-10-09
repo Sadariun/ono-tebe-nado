@@ -51,8 +51,6 @@ header {
     grid-column: 3;
 }
 
-.header_link {}
-
 .header_link_active {
     text-underline-offset: 4px;
 }
@@ -331,8 +329,6 @@ footer {
 .footer_social-link {
     width: 50%;
 }
-
-.footer__social-icon {}
 
 .adress {
     word-wrap: break-word;
