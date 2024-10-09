@@ -1,1 +1,240 @@
-/* место для вашего кода */
+
+body{
+}
+
+
+header{
+    margin: 48px 24px 92px; 
+}
+
+.header_menu{
+    font-size:18px;
+    min-height: 100%;
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 3.35fr 1fr 3.35fr;
+}
+
+.header_links-list{ 
+    grid-column: 1;  
+    flex-direction:row;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right:24px;
+}
+
+.header_links-list-item{
+    margin:auto 16px auto;
+    list-style: circle;
+    border-bottom:1px solid black; 
+}
+
+.header_links-list-item_no-bullit{
+    list-style: none;   
+    text-decoration: none; 
+    border-bottom: none;
+}
+
+.header_logo{
+    grid-column: 2;
+}
+
+.header-adress{
+    flex-direction: column;
+    justify-content:center;
+    margin-right: 60px;
+    margin-left: 192px;
+    margin-bottom:3px;
+    grid-column:3;
+}
+
+.header_link_active{
+    text-underline-offset: 4px;
+}
+
+.cover{
+    min-height: 757px;
+    position: relative;
+    background-image: url(https://raw.githubusercontent.com/Sadariun/ono-tebe-nado/refs/heads/main/images/cover.jpg);
+    background-size: 130%;
+    background-position: center;
+    z-index:0;
+}
+
+.cover_title{
+    font-size: 100px;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 50px 100px;
+    line-height: 125%;
+    letter-spacing: 30px;
+}
+
+.aligned-text{
+    text-align: left;
+}
+
+.aligned-text_center{
+    text-align: center;
+    padding-left:0px
+}
+
+.aligned-text_right{
+    text-align: right;
+    padding-left: 585px;
+}
+
+.no-letter-spacing{
+    letter-spacing: 30px;
+}
+
+.letter-spacing-extended{
+    letter-spacing: 60px;
+}
+
+.cover_description{
+    color: white;
+    font-size: 90%;
+    text-align: left;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.cover_description-text{
+    position: relative;
+    top: 34px;
+    left: 77px;
+    text-wrap: nowrap;
+    word-spacing: 19px;
+    margin-right: 27%;
+    font-weight: 400;
+
+}
+
+.bet-button{
+    position:relative;
+    width:256px;
+    height:51px;
+    left: 795px;
+    bottom: 4px;
+    background-color:transparent;
+    color:white;
+    font-size:22px; 
+    text-transform: uppercase;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+}
+
+.lots{
+    display: block;
+    flex-direction: column;
+    height: 760px;
+    margin: 14.56% 2.2% 269px;
+
+}
+
+.lots_heading{
+    display: flex;
+    height: 10%;
+    margin-left:3.85%;
+    margin-top: 1.8%;
+    text-transform:uppercase;
+    font-size:40px;
+}
+
+.lots_card-list{
+    display: flex;
+    height: 74%;
+    justify-content: space-between;
+}
+
+.card{
+    display: flex;
+    padding: 4.8% 3.7% 4.6%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 31.8%;
+    position: relative;
+}
+
+.card_type_film{
+    background-image: url(https://raw.githubusercontent.com/Sadariun/ono-tebe-nado/refs/heads/main/images/card-lot-01.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_book{
+    background-image: url(https://raw.githubusercontent.com/Sadariun/ono-tebe-nado/refs/heads/main/images/card-lot-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card_type_picture{
+    background-image: url(https://raw.githubusercontent.com/Sadariun/ono-tebe-nado/refs/heads/main/images/card-lot-03.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.card_title{
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: underline 1px;
+    text-decoration-line: underline 1px;
+
+}
+
+.card_text{
+    z-index: 10;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.lots_look-more-link{
+    text-transform: lowercase;
+    font-size: 21px;
+    font-weight: 400;
+    text-decoration: underline 1px;
+    padding: 2.8% 4%
+}
+
+.about{
+    width: 1052px;
+    height: 595px;
+    top: 2067px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+    background-color:pink;
+}
+
+.adress{
+    word-wrap: break-word;
+    display: flex;
+    font-style: normal;
+    line-height: 25px;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0/0.5);
+    z-index: 10;
+}
+
