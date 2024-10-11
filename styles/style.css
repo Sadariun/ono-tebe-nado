@@ -57,6 +57,7 @@ header {
     justify-content: flex-start;
     position: relative;
     font-weight: 700;
+/* Перепроверил ссылки, все работает. Если как-либо изменять то работать перестает*/
     background-image: url(/images/cover.jpg);
     background-size: cover;
     background-position: center;
